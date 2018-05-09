@@ -1,0 +1,6 @@
+<div *ngIf="childSelectedArticle" class="viewArticle">
+  <h1>{{childSelectedArticle.title}}</h1>
+  <p>{{childSelectedArticle.body}}</p>
+  <p>{{childSelectedArticle.author}}</p>
+  <button (click)="finishedReading()">Done</button>
+</div>

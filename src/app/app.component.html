@@ -1,0 +1,4 @@
+<h1>Bustle</h1>
+
+<app-article-list [childArticleList]="masterArticleList" (clickSender)="viewArticle($event)"></app-article-list>
+<app-view-article [childSelectedArticle]="selectedArticle" (clickedDone)="finishedReading()"></app-view-article>

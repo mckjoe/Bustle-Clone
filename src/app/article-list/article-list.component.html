@@ -1,0 +1,5 @@
+<div class="articleDisplay">
+  <ul>
+    <li [class]="viewsColor(currentArticle)" *ngFor="let currentArticle of childArticleList" (click)="viewButtonClicked(currentArticle)"><h3>{{currentArticle.title}}</h3><br><p>{{currentArticle.teaser}}</p><br><h5>{{currentArticle.author}}</h5><br><h6><strong>View</strong>{{currentArticle.views}}</h6></li>
+  </ul>
+</div>

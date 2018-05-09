@@ -1,0 +1,30 @@
+.articleDisplay li {
+  width:  300px;
+  height: 275px;
+  list-style: none;
+  border: 1px solid lightblue;
+  padding: 15px 10px;
+  margin: 10px;
+  float: left;
+}
+
+.articleDisplay li:hover {
+  cursor: pointer;
+  border: 1px solid blue;
+}
+
+.articleDisplay h5,h3 {
+  text-align: center;
+}
+
+.articleDisplay p {
+  text-align: center;
+}
+
+.articleDisplay .high-views h6 {
+  color: forestgreen;
+}
+
+.articleDisplay .low-views h6 {
+  color: darkgray;
+}

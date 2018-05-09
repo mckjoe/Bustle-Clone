@@ -1,0 +1,9 @@
+.viewArticle, .viewArticle p, .viewArticle h5 {
+  text-align: center;
+  width: 600px;
+}
+
+.viewArticle {
+  border: 1px solid lightpink;
+  float: left;
+}
